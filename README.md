@@ -32,7 +32,7 @@ This project aims to analyze user sentiment toward the **Blu Bank** app on **Goo
 ## 🔎 How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/blu-bank-sentiment-analysis.git
+   git clone [https://github.com/iseptianto/Sentiment-Analysis-of-BLU-Bank-Application-in-Playstore-with-Machine-Learning-Approach]
    ```
 2. Install dependencies:
    ```bash
@@ -48,7 +48,26 @@ This project aims to analyze user sentiment toward the **Blu Bank** app on **Goo
    ```
 
 ## 📊 Results & Analysis
-The implemented model achieves **85% accuracy** in classifying user sentiments. Most reviews are positive, though some users express concerns about app performance and data security.
+Here’s the updated **Results & Analysis** section incorporating your accuracy details:  
+
+---
+
+## 📊 Results & Analysis  
+The sentiment analysis model was evaluated on user reviews of the **Blu Bank** app, testing multiple machine learning algorithms. The results show that **Logistic Regression** performed best in sentiment classification:  
+
+| Model                | Accuracy Test |
+|----------------------|--------------|
+| **Logistic Regression** | **79.37%** |
+| **Random Forest**     | **75.89%** |
+| **Naïve Bayes**       | **73.48%** |
+| **Decision Tree**     | **68.80%** |
+
+- **Logistic Regression** provided the highest accuracy, making it a reliable choice for classifying sentiment.  
+- **Random Forest** also performed well but was slightly less accurate than Logistic Regression.  
+- **Naïve Bayes** showed reasonable results but struggled with complex sentence structures.  
+- **Decision Tree** had the lowest accuracy, indicating potential overfitting or misclassification challenges.  
+
+Most user reviews were **positive**, though some expressed concerns regarding **app performance and data security**. These insights can help developers improve future updates.  
 
 ## 📌 References
 - [User Sentiment Analysis of Blu BCA App](https://ejournal.itn.ac.id/index.php/jati/article/view/9216)
